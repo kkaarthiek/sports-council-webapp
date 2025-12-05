@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News & Announcements - Sports Council</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Navigation -->
+  <header class="sc-header">
+    <div class="container sc-nav">
+      <div class="sc-logo">
+        <img src="IISER Bhopal New Logo_1.png" alt="IISER Bhopal" class="logo-iiser">
+        <img src="sports.png" alt="Sports Council" class="logo-sports">
+      </div>
+      <nav class="sc-nav-links">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="events.html">Events</a>
+        <a href="bookings.html">Bookings</a>
+        <a href="scores.html">Match Scores</a>
+        <a href="#sports">Sports & Players</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="btn btn-primary">Join a Sport</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>News & Announcements</h1>
+        <p>Stay updated with the latest happenings from the Sports Council</p>
+      </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="section">
+      <div class="container">
+        <div class="pill-filters news-filters">
+          <button class="pill pill-active" data-filter="all">All</button>
+          <button class="pill" data-filter="latest">Latest</button>
+          <button class="pill" data-filter="campus">Campus</button>
+          <button class="pill" data-filter="updates">Updates</button>
+          <button class="pill" data-filter="events">Events</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="news-grid">
+          <!-- Featured News Card -->
+          <article class="news-card-large">
+            <div class="news-card-image">
+              <img src="hero1.png" alt="Featured News">
+            </div>
+            <div class="news-card-content">
+              <span class="news-tag">Latest</span>
+              <h2>Inter-College Football League Announced</h2>
+              <p class="news-excerpt">The annual inter-college football league is back with bigger prizes and more teams. Registration opens next week for all interested players.</p>
+              <p class="news-date">Oct 10, 2025 • 5 min read</p>
+              <button class="btn btn-outline">Read Full Story</button>
+            </div>
+          </article>
+
+          <!-- Regular News Cards -->
+          <article class="news-card">
+            <div class="news-card-thumb">
+              <img src="hero2.png" alt="News">
+            </div>
+            <div class="news-card-body">
+              <span class="news-tag">Campus</span>
+              <h3>New Indoor Badminton Courts Open</h3>
+              <p class="news-date">Oct 6, 2025</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card-thumb">
+              <img src="hero3.png" alt="News">
+            </div>
+            <div class="news-card-body">
+              <span class="news-tag">Updates</span>
+              <h3>Fitness Bootcamp for First Years</h3>
+              <p class="news-date">Oct 3, 2025</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card-thumb">
+              <img src="hero1.png" alt="News">
+            </div>
+            <div class="news-card-body">
+              <span class="news-tag">Latest</span>
+              <h3>Annual Sports Day Registration Open</h3>
+              <p class="news-date">Sep 28, 2025</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card-thumb">
+              <img src="hero2.png" alt="News">
+            </div>
+            <div class="news-card-body">
+              <span class="news-tag">Campus</span>
+              <h3>Cricket Team Wins Regional Tournament</h3>
+              <p class="news-date">Sep 25, 2025</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card-thumb">
+              <img src="hero3.png" alt="News">
+            </div>
+            <div class="news-card-body">
+              <span class="news-tag">Updates</span>
+              <h3>New Gym Equipment Installed</h3>
+              <p class="news-date">Sep 20, 2025</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card-thumb">
+              <img src="hero1.png" alt="News">
+            </div>
+            <div class="news-card-body">
+              <span class="news-tag">Events</span>
+              <h3>Basketball Tournament Finals This Weekend</h3>
+              <p class="news-date">Sep 15, 2025</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Load More -->
+        <div class="text-center" style="margin-top: 40px;">
+          <button class="btn btn-primary">Load More News</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sport Council</h3>
+        <p>Building a stronger, fitter campus through sport and community.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="bookings.html">Bookings</a></li>
+          <li><a href="scores.html">Live Scores</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: sportcouncil@example.edu</li>
+          <li>Office: Sports Complex, Block A</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul class="socials">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Sport Council. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

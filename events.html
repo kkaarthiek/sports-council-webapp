@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upcoming Events - Sports Council</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Navigation -->
+  <header class="sc-header">
+    <div class="container sc-nav">
+      <div class="sc-logo">
+        <img src="IISER Bhopal New Logo_1.png" alt="IISER Bhopal" class="logo-iiser">
+        <img src="sports.png" alt="Sports Council" class="logo-sports">
+      </div>
+      <nav class="sc-nav-links">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="events.html">Events</a>
+        <a href="bookings.html">Bookings</a>
+        <a href="scores.html">Match Scores</a>
+        <a href="#sports">Sports & Players</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="btn btn-primary">Join a Sport</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Upcoming Events</h1>
+        <p>Register for tournaments, trials, and training sessions</p>
+      </div>
+    </section>
+
+    <!-- Event Filters -->
+    <section class="section">
+      <div class="container">
+        <div class="pill-filters">
+          <button class="pill pill-active" data-filter="all">All Events</button>
+          <button class="pill" data-filter="tournaments">Tournaments</button>
+          <button class="pill" data-filter="trials">Trials</button>
+          <button class="pill" data-filter="training">Training</button>
+          <button class="pill" data-filter="workshops">Workshops</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events List -->
+    <section class="section">
+      <div class="container">
+        <div class="events-list">
+          <!-- Event Card -->
+          <article class="event-card-detailed">
+            <div class="event-date-badge">
+              <span class="event-day">14</span>
+              <span class="event-month">Oct</span>
+            </div>
+            <div class="event-details">
+              <div class="event-header">
+                <h3>Basketball 3v3 Tournament</h3>
+                <span class="event-status status-open">Open for Registration</span>
+              </div>
+              <div class="event-meta">
+                <span>📍 Main Court</span>
+                <span>⏰ 4:00 PM</span>
+                <span>👥 16 Teams Max</span>
+              </div>
+              <p class="event-description">Join us for an exciting 3v3 basketball tournament. Teams of 3 players compete in a knockout format. Prizes for top 3 teams!</p>
+              <div class="event-actions">
+                <button class="btn btn-primary">Register Now</button>
+                <button class="btn btn-outline">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card-detailed">
+            <div class="event-date-badge">
+              <span class="event-day">22</span>
+              <span class="event-month">Oct</span>
+            </div>
+            <div class="event-details">
+              <div class="event-header">
+                <h3>Athletics Track Meet</h3>
+                <span class="event-status status-open">Open for Registration</span>
+              </div>
+              <div class="event-meta">
+                <span>📍 Stadium Track</span>
+                <span>⏰ 8:00 AM</span>
+                <span>👥 Unlimited</span>
+              </div>
+              <p class="event-description">Annual athletics meet featuring 100m, 200m, 400m sprints, long jump, and relay races. All students welcome to participate.</p>
+              <div class="event-actions">
+                <button class="btn btn-primary">Register Now</button>
+                <button class="btn btn-outline">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card-detailed">
+            <div class="event-date-badge">
+              <span class="event-day">28</span>
+              <span class="event-month">Oct</span>
+            </div>
+            <div class="event-details">
+              <div class="event-header">
+                <h3>Football Team Trials</h3>
+                <span class="event-status status-limited">Limited Spots</span>
+              </div>
+              <div class="event-meta">
+                <span>📍 Football Ground</span>
+                <span>⏰ 5:00 PM</span>
+                <span>👥 30 Spots Left</span>
+              </div>
+              <p class="event-description">Trials for the inter-college football team. Bring your boots and be ready to showcase your skills. Selection based on performance.</p>
+              <div class="event-actions">
+                <button class="btn btn-primary">Register Now</button>
+                <button class="btn btn-outline">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card-detailed">
+            <div class="event-date-badge">
+              <span class="event-day">05</span>
+              <span class="event-month">Nov</span>
+            </div>
+            <div class="event-details">
+              <div class="event-header">
+                <h3>Yoga & Fitness Workshop</h3>
+                <span class="event-status status-open">Open for Registration</span>
+              </div>
+              <div class="event-meta">
+                <span>📍 Gym Hall</span>
+                <span>⏰ 6:00 AM</span>
+                <span>👥 50 Max</span>
+              </div>
+              <p class="event-description">Learn yoga basics, breathing techniques, and fitness routines from certified instructors. Perfect for beginners and intermediates.</p>
+              <div class="event-actions">
+                <button class="btn btn-primary">Register Now</button>
+                <button class="btn btn-outline">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="event-card-detailed">
+            <div class="event-date-badge">
+              <span class="event-day">12</span>
+              <span class="event-month">Nov</span>
+            </div>
+            <div class="event-details">
+              <div class="event-header">
+                <h3>Badminton Championship</h3>
+                <span class="event-status status-open">Open for Registration</span>
+              </div>
+              <div class="event-meta">
+                <span>📍 Indoor Courts</span>
+                <span>⏰ 9:00 AM</span>
+                <span>👥 32 Players</span>
+              </div>
+              <p class="event-description">Singles and doubles badminton championship. Knockout rounds followed by semi-finals and finals. Trophies for winners and runners-up.</p>
+              <div class="event-actions">
+                <button class="btn btn-primary">Register Now</button>
+                <button class="btn btn-outline">View Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sport Council</h3>
+        <p>Building a stronger, fitter campus through sport and community.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="bookings.html">Bookings</a></li>
+          <li><a href="scores.html">Live Scores</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: sportcouncil@example.edu</li>
+          <li>Office: Sports Complex, Block A</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul class="socials">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Sport Council. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
