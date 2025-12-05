@@ -101,6 +101,7 @@ a {
   display: block;
   height: 50px;
   width: auto;
+  max-width: 58px;
   object-fit: contain;
 }
 
@@ -109,7 +110,8 @@ a {
 }
 
 .sc-logo .logo-sports {
-  height: 50px;
+  height: 62px;
+  object-fit: zoom;
 }
 
 .sc-nav-links {
@@ -336,7 +338,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.2s ease;
 }
 .hero-media-wrap:hover .hero-controls,
